@@ -22,11 +22,11 @@ export default {
                 title: "Recomendados para Você",
                 items: await basicFetch(`/trending/all/week?${LANGUAGE}${API_KEY}`)
             },
-            {
-                slug: 'topRated',
-                title: "Em Alta",
-                items: await basicFetch(`/movie/toprated?${LANGUAGE}${API_KEY}`)
-            },
+            // {
+            //     slug: 'topRated',
+            //     title: "Em Alta",
+            //     items: await basicFetch(`/movie/toprated?${LANGUAGE}${API_KEY}`)
+            // },
             {
                 slug: 'action',
                 title: "Acão",
