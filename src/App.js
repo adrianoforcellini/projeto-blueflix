@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import TMDB from './TMDB';
+import { useEffect, useState } from 'react';
 
-function App() {
+
+export default () => {
+  const [movieList, setMovieList] = useState([{title: 'oaaxi'}]);
+  const test =[1,2,3,4];
+
+  useEffect(() => {
+    const loadAll = async () => {
+      let list = await TMDB.getHomeList();
+      console.log(list)
+      setMovieList(list)
+    }
+    loadAll();
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className="page">
+      <section className="lists">
+        a
+        {teste.map((item, key) => {
+          <div>
+            {item}
+          </div> 
+
+        })} b
+      </section>
+     </div>
   );
 }
 
-export default App;
+
