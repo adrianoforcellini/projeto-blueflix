@@ -4,7 +4,9 @@
 }
 
 body {
-  background-color: #111;
+  /* background-color: rgb(1, 6, 26); */
+  background-color: rgb(1, 6, 24);
+
   color: white;
   font-family: 'Yomogi';
   margin: 0;
