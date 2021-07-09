@@ -24,7 +24,7 @@ export default () => {
 
   return (
     <div className="page">
-      <header><h1>BLUEFLIX</h1></header>
+     <center><h1 className="blueflix">BLUEFLIX</h1></center> 
       {futuredData && < FeaturedMovie item={futuredData} />}
       <section className="lists">
         {movieList.map((item, key) => (
