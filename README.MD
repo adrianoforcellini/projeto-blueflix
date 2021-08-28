@@ -6,7 +6,5 @@
 
 ### Deploy realizado no Amazon AWS Amplify
 ## https://main.d286xy65trs3a5.amplifyapp.com/
-
-![](/1.gif)
-![](/2.gif)
-
+<img src="/1.gif" width="750" height="450"/>
+<img src="/2.gif" width="750" height="450"/>
