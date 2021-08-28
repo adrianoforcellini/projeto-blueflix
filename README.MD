@@ -2,7 +2,7 @@
 
 ### Venha guardando essa vontade á meses. Enfim, sai do papel o projeto BLUEFLIX;
 ### Uma aplicação feita em React JS, com uso da API TMDB com design inspirado no site Netflix.
-### Deploy realizado no Amazon AWS Amplify
+### Deploy realizado no Amazon AWS Amplify.
 
 ### Direitos de imagens Netflix.
 ## https://main.d286xy65trs3a5.amplifyapp.com/
