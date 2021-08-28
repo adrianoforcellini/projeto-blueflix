@@ -6,3 +6,7 @@
 ### Uma aplicação feita em React.js;
 ### Design inspirado no site Netflix.
 ### Direitos de imagens Netflix.
+
+![](/1.gif)
+![](/2.gif)
+
