@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import MovieRow from './components/MovieRow';
 import FeaturedMovie from './components/FeaturedMovie';
 
-export default () => {
+const App = () => {
   const [movieList, setMovieList] = useState([]);
   const [futuredData, setfuturedData] = useState(null);
 
@@ -34,4 +34,4 @@ export default () => {
   );
 }
 
-
+export default App;
